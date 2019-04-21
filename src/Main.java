@@ -1,9 +1,9 @@
 public class Main {
 
     public static void main (String[]argc){
-        SimpleGUI app = new SimpleGUI();
-        app.setVisible(true);
-        app.setResizable(false);
+        GraphicalUserInterface gui = new GraphicalUserInterface();
+        gui.setVisible(true);
+        gui.setResizable(false);
 
     }
 }
