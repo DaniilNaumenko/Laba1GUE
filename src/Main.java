@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main (String[]argc){
-        GraphicalUserInterface gui = new GraphicalUserInterface();
+        Interface gui = new Interface();
         gui.setVisible(true);
         gui.setResizable(false);
 
